@@ -48,4 +48,4 @@ jobs:
         app-name: 'Species-Idetifier'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_76e2a9a19b7c492696edf5310b40d69b }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_8ea45d14284b456abf88d849645650cf }}/gauravjagtap2611/flask-dsapp:${{ github.sha }}'
+        images: 'gauravjagtap2611/flask-dsapp:${{ github.sha }}'
